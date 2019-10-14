@@ -4,16 +4,10 @@ using namespace std;
 
 int main()
 {
-  vector<int> v{1,2,3,4,5,6,7,8,9};
-  for (auto &i : v){
-    i *= i;
+  string s("some string");
+  if (s.begin() != s.end()) {
+    auto it = s.begin();
+    *it = toupper(*it);
   }
-
-  for (auto i : v){
-    cout << i << " ";
-  }
-
-  cout << endl;
-
   return 0;
 }
