@@ -1,13 +1,12 @@
 #include <iostream>
 #include <vector>
+#include <cctype>
 using namespace std;
 
 int main()
 {
-  string s("some string");
-  if (s.begin() != s.end()) {
-    auto it = s.begin();
-    *it = toupper(*it);
-  }
+  vector<int> v;
+  const vector<int> cv;
+  
   return 0;
 }
