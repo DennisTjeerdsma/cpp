@@ -1,0 +1,1 @@
+// We use a block when only one statement can be used, but more than 1 statement is needed.
